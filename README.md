@@ -8,3 +8,13 @@
     "react-scripts": "1.1.1",
     "redux": "^3.7.2"
 ```
+# reducer starter
+```
+import { combineReducers } from 'redux';
+
+const rootReducer = combineReducers({
+  state: (state = {}) => state
+});
+
+export default rootReducer;
+```

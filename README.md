@@ -21,6 +21,7 @@
 <a href="https://openweathermap.org/forecast5">Open Weather Map</a>
 # npm "dependencies": 
 ```
+    "axios": "^0.17.1",
     "jquery": "^3.3.1",
     "lodash": "^4.17.5",
     "react": "^16.2.0",

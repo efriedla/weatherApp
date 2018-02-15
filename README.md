@@ -1,4 +1,4 @@
-#npm "dependencies": 
+# npm "dependencies": 
 ```
     "jquery": "^3.3.1",
     "lodash": "^4.17.5",
@@ -18,3 +18,6 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 ```
+# wireFrame
+
+![alt text](https://wireframe.cc/6b7aCr)

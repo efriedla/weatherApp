@@ -4,14 +4,18 @@
 </p>
 
 <!-- https://wireframe.cc/6b7aCr -->
+# Building Steps
+```
+[ ]   Create Search Bar
+
+```
 # Goal for application
 ```
 [x]   Setup react and redux
 [ ]   Ajax through Redux
 [ ]   Third Party line chart
 [ ]   Weather API
-[ ]   Search Weather by loaction
-[ ]   
+[ ]   Search Weather by loaction  
 ```
 # npm "dependencies": 
 ```

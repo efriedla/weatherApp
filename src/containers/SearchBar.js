@@ -25,7 +25,7 @@ export default class SearchBar extends Component{
                     <input 
                         type="search" 
                         className="form-control" 
-                        placeholder="Search Forcasts" 
+                        placeholder="Search City Forcasts" 
                         aria-describedby="basic-addon2"
                         value={this.state.term}
                         onChange={this.onInputChange}
@@ -33,6 +33,7 @@ export default class SearchBar extends Component{
                     <span 
                         onClick={this.handleSubmit}
                         type="submit"
+                        value="submit"
                         className="input-group-addon btn btn-primary" 
                         id="basic-addon2">Submit
                     </span>

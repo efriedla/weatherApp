@@ -7,6 +7,7 @@
 # Building Steps
 ```
 [ ]   Create Search Bar "needs to be a container so it can talk to redux"
+[ ]   Get API
 
 ```
 # Goal for application
@@ -14,9 +15,10 @@
 [x]   Setup react and redux
 [ ]   Ajax through Redux
 [ ]   Third Party line chart
-[ ]   Weather API
+[ ]   Weather API 
 [ ]   Search Weather by loaction  
 ```
+<a href="https://openweathermap.org/forecast5">Open Weather Map</a>
 # npm "dependencies": 
 ```
     "jquery": "^3.3.1",

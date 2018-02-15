@@ -1,3 +1,18 @@
+# wireFrame
+<p align="center">
+  <img src="./public/image/WeatherApp.png" width="450"/>
+</p>
+
+<!-- https://wireframe.cc/6b7aCr -->
+# Goal for application
+```
+[x]   Setup react and redux
+[ ]   Ajax through Redux
+[ ]   Third Party line chart
+[ ]   Weather API
+[ ]   Search Weather by loaction
+[ ]   
+```
 # npm "dependencies": 
 ```
     "jquery": "^3.3.1",
@@ -18,8 +33,3 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 ```
-# wireFrame
-<p align="center">
-  <img src="./public/image/WeatherApp.png" width="450"/>
-</p>
-<!-- https://wireframe.cc/6b7aCr -->

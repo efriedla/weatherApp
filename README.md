@@ -19,5 +19,7 @@ const rootReducer = combineReducers({
 export default rootReducer;
 ```
 # wireFrame
+<p align="center">
+  <img src="https://wireframe.cc/6b7aCr" width="350"/>
+</p>
 
-![alt text](https://wireframe.cc/6b7aCr)

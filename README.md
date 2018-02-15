@@ -6,7 +6,7 @@
 <!-- https://wireframe.cc/6b7aCr -->
 # Building Steps
 ```
-[ ]   Create Search Bar
+[ ]   Create Search Bar "needs to be a container so it can talk to redux"
 
 ```
 # Goal for application

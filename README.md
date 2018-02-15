@@ -27,7 +27,8 @@
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-scripts": "1.1.1",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3"
 ```
 # reducer starter
 ```

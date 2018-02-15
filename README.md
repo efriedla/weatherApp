@@ -20,6 +20,6 @@ export default rootReducer;
 ```
 # wireFrame
 <p align="center">
-  <img src="https://wireframe.cc/6b7aCr" width="350"/>
+  <img src="./public/image/WeatherApp.png" width="350"/>
 </p>
-
+<!-- https://wireframe.cc/6b7aCr -->

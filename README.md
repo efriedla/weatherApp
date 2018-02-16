@@ -6,17 +6,19 @@
 <!-- https://wireframe.cc/6b7aCr -->
 # Building Steps
 ```
-[ ]   Create Search Bar "needs to be a container so it can talk to redux"
-[ ]   Get API
+[x]   Create Search Bar "needs to be a container so it can talk to redux"
+[x]   Get API
+[x]   Read data from api
+[ ]   Create WeatherList to show list of cities
 
 ```
 # Goal for application
 ```
 [x]   Setup react and redux
-[ ]   Ajax through Redux
+[x]   Ajax through Redux
 [ ]   Third Party line chart
-[ ]   Weather API 
-[ ]   Search Weather by loaction  
+[x]   Weather API 
+[x]   Search Weather by loaction  
 ```
 <a href="https://openweathermap.org/forecast5">Open Weather Map</a>
 

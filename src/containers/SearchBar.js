@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {fetchWeather} from "../actions/mainAction";
 
-export default class SearchBar extends Component{
+class SearchBar extends Component{
     constructor(props){
         super(props);
 
@@ -18,8 +18,8 @@ export default class SearchBar extends Component{
     }
     handleSubmit(event) {
         event.preventDefault();
-        alert('sumbited ' + this.state.term);
-       
+        this.props.fetchWeather(this.state.term);
+       this.setState({ term: '' });
       }
     render() {
         return(
@@ -36,7 +36,6 @@ export default class SearchBar extends Component{
                     <span 
                         onClick={this.handleSubmit}
                         type="submit"
-                        value="submit"
                         className="input-group-addon btn btn-primary" 
                         id="basic-addon2">Submit
                     </span>
@@ -45,3 +44,11 @@ export default class SearchBar extends Component{
         );
     }
 }
+function mapDispatchToProps(dispatch){
+    return bindActionCreators({ fetchWeather }, dispatch);
+}
+
+/**
+ * null tells redux that we aren't using state
+ */
+export default connect(null,mapDispatchToProps)(SearchBar);

@@ -42,14 +42,3 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 ```
-# common issue
-* how to hide api key
-```
-export default function api_key() {
-    var api_key = "blafkjweofkhwkfhfojkhfr";
-    return (
-        {api_key}
-);
-}
-```
-* make sure to put this file in the gitignore 

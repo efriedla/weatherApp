@@ -3,9 +3,12 @@ import {connect} from 'react-redux';
 
 class WeatherList extends Component{
     renderWeather(cityData){
-        console.log(cityData);
+        const cityName = cityData.city.name;
         return(
-            <td>{cityData.city.name}</td>
+            <tr key={cityName}>
+                <td>{cityName}</td>
+                <td>city</td>
+            </tr>
         )
     }
         render(){
@@ -20,11 +23,11 @@ class WeatherList extends Component{
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                   
+                    {/* <tr><td>seattle</td></tr> */}
+                    {this.props.weather.map(this.renderWeather)}
                     
-                    {/* {this.props.weather.map(this.renderWeather)} */}
-                    
-                    </tr>
+                   
                  
                 </tbody>
             </table>

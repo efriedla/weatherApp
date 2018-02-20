@@ -5,13 +5,14 @@
  */
 import { Fetch_Weather } from "../actions/mainAction";
 
-export default function(state = null, action){
+export default function(state = [], action){
     switch(action.type){
         case 'Fetch_Weather':
         // handle payload
         // return state.concat([action.payload.data]);
         return [ action.payload.data, ...state ]; // [ city, city, city ]
+        return state.concat([action.payload.data]);
     }
-    console.log("action: ", action);
-    return [state];
+    console.log("action: ", action.payload);
+    return state;
 }
